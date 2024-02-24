@@ -15,9 +15,9 @@ function App() {
 <>
 <NavBar></NavBar>
 {/* <NavbarDemo></NavbarDemo> */}
-<GoogleGeminiEffectDemo></GoogleGeminiEffectDemo>
+{/* <GoogleGeminiEffectDemo></GoogleGeminiEffectDemo> */}
 {/* <SparklesPreview></SparklesPreview> */}
-{/* <Header></Header> */}
+<Header></Header>
 <Section1></Section1>
 <Work></Work>
 <Footer></Footer>
