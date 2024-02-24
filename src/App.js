@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Common/Header/Header';
+import NavBar from './Components/Common/Navbar/Navbar';
+import Section1 from './Components/Common/Section1/Section1';
+import Work from './Components/Common/Work/Work';
+import Footer from './Components/Common/Footer/Footer';
+import { GoogleGeminiEffectDemo } from './Components/UseUi/GoogleGeminiEffectDemo.tsx';
+import { SparklesPreview } from './Components/UseUi/SparklesPreview.tsx';
+import { NavbarDemo } from './Components/UseUi/NavbarDemo.tsx';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<>
+<NavBar></NavBar>
+{/* <NavbarDemo></NavbarDemo> */}
+<GoogleGeminiEffectDemo></GoogleGeminiEffectDemo>
+{/* <SparklesPreview></SparklesPreview> */}
+{/* <Header></Header> */}
+<Section1></Section1>
+<Work></Work>
+<Footer></Footer>
+</>
   );
 }
 
